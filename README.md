@@ -31,13 +31,13 @@
 
 4. Create and run GoogleTest
 
-    * From the terminal, type in the following command
+    * You will be asked to select a Kit. Select the Kit that starts with **Clang**. There should only be one. Further, this only needs to be done once. Once you select the Kit, you will see an attempt to build the unit tests which will fail because the GoogleTest test suite is not installed yet. Proceed to the next bullet point.
+
+    * From the **TERMINAL**, type in the following command
       ```
       git clone https://github.com/google/googletest.git
       ```
 
-    * You will be asked to select a Kit. Select the Kit that starts with **Clang**. There should only be one. Further, this only needs to be done once.
-
-    * In the lower left of the Explorer window you will see Codespaces: and the name of your running codespace which is two words. At the far right you will see a triangle pointing right. Click that icon.
+    * In the lower left of the Explorer window you will see Codespaces: and the name of your running codespace which is two words. At the far right you will see a triangle pointing right. Click that icon which will run the unit tests in SampleClassTests.cpp which will unit test the factorial program in class SampleClass.
 
     * A GoogleTest should run that tests a function called factorial that is a member of a class called SampleClass. You should see the function factorial tested and passed in green text.
